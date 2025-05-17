@@ -2,29 +2,36 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Taha Vahanvaty</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
   <style>
     body {
-      font-family: 'Segoe UI', sans-serif;
       margin: 0;
-      padding: 0;
-      background: #f9f9f9;
+      font-family: 'Inter', sans-serif;
+      background-color: #f5f5f5;
       color: #333;
     }
     header {
-      background: #005f73;
-      color: white;
+      background-color: #fff;
       padding: 2rem 1rem;
       text-align: center;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    header img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
     }
     header h1 {
-      margin: 0;
-      font-size: 2.5rem;
+      margin: 1rem 0 0.5rem;
+      font-size: 2rem;
     }
     header p {
-      margin: 0.5rem 0 0;
-      font-size: 1.2rem;
+      margin: 0;
+      font-size: 1.1rem;
+      color: #555;
     }
     main {
       max-width: 800px;
@@ -38,78 +45,73 @@
       border-bottom: 2px solid #ccc;
       padding-bottom: 0.5rem;
       margin-bottom: 1rem;
-      color: #005f73;
     }
-    ul {
-      list-style: none;
-      padding: 0;
+    .project {
+      margin-bottom: 1rem;
     }
-    li {
-      margin-bottom: 0.5rem;
+    .project h3 {
+      margin: 0 0 0.5rem;
     }
-    a {
-      color: #005f73;
-      text-decoration: none;
-    }
-    a:hover {
-      text-decoration: underline;
+    .project p {
+      margin: 0;
     }
     footer {
       text-align: center;
       padding: 1rem;
-      background: #e0e0e0;
-      color: #555;
+      background-color: #fff;
+      border-top: 1px solid #ccc;
+    }
+    footer a {
+      margin: 0 0.5rem;
+      color: #0073b1;
+      text-decoration: none;
     }
   </style>
 </head>
 <body>
   <header>
+    <img src="profile.jpg" alt="Taha Vahanvaty">
     <h1>Taha Vahanvaty</h1>
-    <p>Student | Civic Dialogue Facilitator | Community Builder</p>
+    <p>Student Leader • Civic Dialogue Facilitator • Social Innovator</p>
   </header>
   <main>
     <section>
       <h2>About Me</h2>
       <p>
-        I'm a junior at American University majoring in Communications, Law, Economics, and Government (CLEG). My passion lies in fostering civic dialogue and building inclusive communities.
+        I’m a junior at American University studying Communications, Law, Economics, and Government (CLEG). I’m passionate about bridging divides through meaningful dialogue and empowering young people to lead with empathy.
       </p>
     </section>
     <section>
-      <h2>Experience</h2>
-      <ul>
-        <li>
-          <strong>Civic Dialogue Fellow</strong> – American University’s Project on Civic Dialogue (2022–Present)
-        </li>
-        <li>
-          <strong>Founder</strong> – The Acceptance Project (TAP), a student-led dialogue initiative :contentReference[oaicite:4]{index=4}
-        </li>
-      </ul>
-    </section>
-    <section>
-      <h2>Honors & Awards</h2>
-      <ul>
-        <li>
-          <strong>2022 Bryan Cameron Scholar</strong> – Bryan Cameron Education Foundation :contentReference[oaicite:5]{index=5}
-        </li>
-      </ul>
-    </section>
-    <section>
-      <h2>Campus Involvement</h2>
-      <ul>
-        <li>Muslim Student Association</li>
-        <li>Interfaith Club</li>
-        <li>Running Club</li>
-      </ul>
+      <h2>Projects & Leadership</h2>
+      <div class="project">
+        <h3>The Acceptance Project (TAP)</h3>
+        <p>
+          Founder of TAP, a youth-led initiative launched in 2017 to foster civil discourse among students across ideological divides. TAP has grown to over 200 students across 5 schools in Pennsylvania, offering free dialogue training and leadership development.
+        </p>
+      </div>
+      <div class="project">
+        <h3>American University Project on Civic Dialogue</h3>
+        <p>
+          Civic Dialogue Fellow since 2022. I helped launch the PCD grant program in 2023 and facilitate campus-wide discussions on challenging topics, including the “Disagree with a Professor” series.
+        </p>
+      </div>
+      <div class="project">
+        <h3>We Are Family Foundation – Global Teen Leader</h3>
+        <p>
+          Selected as a 2021 Global Teen Leader for my work with TAP. Collaborated with international peacebuilding organizations to expand TAP’s model nationwide.
+        </p>
+      </div>
     </section>
     <section>
       <h2>Contact</h2>
       <p>
-        <a href="https://www.linkedin.com/in/tahavahanvaty" target="_blank">LinkedIn Profile</a>
+        <a href="mailto:taha@example.com">Email</a> |
+        <a href="https://www.linkedin.com/in/tahavahanvaty/">LinkedIn</a>
       </p>
     </section>
   </main>
   <footer>
-    &copy; 2025 Taha Vahanvaty
+    <p>&copy; 2025 Taha Vahanvaty</p>
   </footer>
 </body>
 </html>
